@@ -23,7 +23,7 @@ html{
 --------------  HOME SECTION  -------------------
 ---------------------------------------------- */
 
-.home{
+#home{
     width: 100%;
     height: 100vh;
     background-color: var(--bgColor-1);
@@ -144,14 +144,14 @@ p{
     transform: scale(1.4);
 }
 
-.home .cont-images {
+#home .cont-images {
     width: 45%;
     height: 90%;
     position: relative;
     align-self: flex-end;
 }
 
-.home .cont-images img{
+#home .cont-images img{
     position: absolute;
     bottom: 0;
     height: 120%;
@@ -162,7 +162,7 @@ p{
 --------------  ABOUT SECTION  ------------------
 ---------------------------------------------- */
 
-.about{
+#about{
    background-color: var(--bgColor-2);
    /* padding: var(--padding); */
    display: flex;
@@ -170,15 +170,15 @@ p{
    justify-content: space-around;
 }
 
-.about .cont-images {
+#about .cont-images {
     width: 35%;
 }
 
-.about .cont-images img{
+#about .cont-images img{
     width: 80%;
 }
 
-.about .cont-text {
+#about .cont-text {
     width: 35%;
 }
 
@@ -186,7 +186,7 @@ p{
 --------------  SERVICES SECTION  ---------------
 ---------------------------------------------- */
 
-.services {
+#services {
     background-color: var(--bgColor-1);
     padding: var(--padding);
 }
@@ -212,7 +212,7 @@ p{
 --------------  SKILLS SECTION  -----------------
 ---------------------------------------------- */
 
-.skills{
+#skills{
     background-color: var(--bgColor-2);
     padding: var(--padding);
     display: flex;
@@ -220,19 +220,19 @@ p{
     justify-content:space-between;
  }
 
-.skills .cont-images {
+#skills .cont-images {
     width: 35%;
 }
 
-.skills .cont-images img{
+#skills .cont-images img{
     width: 90%;
 }
 
-.skills .cont-skills{
+#skills .cont-skills{
     width: 50%;
 }
 
-.skills .cont-skills {
+#skills .cont-skills {
     width: 40%;
 }
 
@@ -254,14 +254,14 @@ p{
 --------------  PROJECTS SECTION  ---------------
 ---------------------------------------------- */
 
-.container{
+#container{
     position: relative;
     background-color: var(--bgColor-1);
     padding: var(--padding);
     min-height: 100vh;
 }
 
-.container .image-container{
+#container .image-container{
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -269,7 +269,7 @@ p{
     padding: 10px;
 }
 
-.container .image-container .image{
+#container .image-container .image{
     height: 150px;
     width: 250px;
     border: 5px solid #fff;
@@ -278,18 +278,18 @@ p{
     cursor: pointer;
 }
 
-.container .image-container .image img{
+#container .image-container .image img{
     height: 100%;
     width: 100%;
     object-fit:cover;
     transition: .2s linear;
 }
 
-.container .image-container .image:hover img{
+#container .image-container .image:hover img{
     transform: scale(1.1);
 }
 
-.container .popup-image{
+#container .popup-image{
     position: fixed;
     top: 0; left: 0;
     background: rgba(0, 0, 0, .9);
@@ -299,7 +299,7 @@ p{
     display: none;
 }
 
-.container .popup-image span{
+#container .popup-image span{
     position: absolute;
     top: 0; right: 10px;
     font-size: 40px;
@@ -308,7 +308,7 @@ p{
     z-index: 100;
 }
 
-.container .popup-image img{
+#container .popup-image img{
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
